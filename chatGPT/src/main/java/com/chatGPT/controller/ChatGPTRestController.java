@@ -1,6 +1,6 @@
 package com.chatGPT.controller;
 
-import com.chatGPT.ChatGPTService;
+import com.chatGPT.service.ChatGPTService;
 import com.chatGPT.model.SearchRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
