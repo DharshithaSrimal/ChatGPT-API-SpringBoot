@@ -11,6 +11,6 @@ public class ChatGPTService {
         chatGPTRequest.setPrompt(query);
 
         ChatGPTResponse chatGPTResponse;
-        return "";
+        return chatGPTResponse.getChoises().get(0).getText();
     }
 }
